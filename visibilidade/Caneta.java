@@ -1,12 +1,12 @@
-package caneta;
+package visibilidade;
 
 public class Caneta {
     // atributos da classe
     public String modelo;
     public String cor;
-    public float ponta;
-    public int carga;
-    public boolean tampada;
+    private float ponta;
+    protected int carga;
+    private boolean tampada;
 
     // métodos da classe
     void status() {
@@ -17,7 +17,7 @@ public class Caneta {
         System.out.println(" está tampada? " + this.tampada);
     }
 
-    void rabiscar() {
+    public void rabiscar() {
         if (this.tampada == true) {
             System.out.println("ERRO! Não posso rabiscar");
         } else {
@@ -25,12 +25,11 @@ public class Caneta {
         }
     }
 
-    void tampar() {
+    protected void tampar() {
         this.tampada = true;
     }
 
-    void destampar() {
+    protected void destampar() {
         this.tampada = false;
     }
-
 }
