@@ -2,14 +2,22 @@ package caneta;
 
 public class CanetaTeste {
     public static void main(String[] args) {
-        Caneta caneta = new Caneta();
+        // instanciar
+        Caneta c1 = new Caneta();
 
-        caneta.cor = "Azul";
-        caneta.marca = "Bique";
-        caneta.nivelDaCor = 45;
-        caneta.quantidade = 12;
+        // chamando os atributos
+        c1.cor = "Azul";
+        c1.ponta = 0.5f;
+        // chamando método
+        c1.tampar();
+        c1.status();
+        c1.rabiscar();
 
-        caneta.escreve(14);
-        System.out.println(caneta.nivelDaCor);
+        Caneta c2 = new Caneta();
+        c2.modelo = "Hostnet";
+        c2.cor = "Preta";
+        c2.destampar();
+        c2.status();
+        c2.rabiscar();
     }
 }

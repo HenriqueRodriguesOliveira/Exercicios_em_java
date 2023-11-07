@@ -1,16 +1,36 @@
 package caneta;
 
 public class Caneta {
+    // atributos
+    String modelo;
     String cor;
-    String marca;
-    int quantidade;
-    int nivelDaCor;
+    float ponta;
+    int carga;
+    boolean tampada;
 
-    void escreve(int quantidade) {
-        nivelDaCor += quantidade;
+    // métodos
+    void status() {
+        System.out.println("Modelo: " + this.modelo);
+        System.out.println("Uma caneta " + this.cor);
+        System.out.println("Ponta: " + this.ponta);
+        System.out.println("Carga: " + this.carga);
+        System.out.println(" está tampada? " + this.tampada);
     }
 
-    void naoEscreve(int menosQuantidade) {
-        nivelDaCor -= menosQuantidade;
+    void rabiscar() {
+        if (this.tampada == true) {
+            System.out.println("ERRO! Não posso rabiscar");
+        } else {
+            System.out.println("Estou Rabiscando");
+        }
     }
+
+    void tampar() {
+        this.tampada = true;
+    }
+
+    void destampar() {
+        this.tampada = false;
+    }
+
 }
