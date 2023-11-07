@@ -12,7 +12,7 @@ Neste projeto irá conter os exercícios na qual solucionei para práticar o que
 - [ ] Estrutura de dados.
 - [ ] Hash Map.
 - [ ] Hash Set.
-- [ ] POO.
+- [x] POO.
 - [ ] Encapsulamento.
 - [ ] Herança. Polimorfismo.
 - [ ] Exceções.
