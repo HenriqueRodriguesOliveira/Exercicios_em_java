@@ -8,16 +8,8 @@
 
 ## Sobre o Projeto
 Neste projeto irá conter os exercícios na qual solucionei para práticar o que eu aprendi nos meus estudos:
-- [x] Estrutura de repetição.
-- [ ] Estrutura de dados.
-- [ ] Hash Map.
-- [ ] Hash Set.
-- [x] POO.
-- [ ] Encapsulamento.
-- [ ] Herança. Polimorfismo.
-- [ ] Exceções.
-- [ ] Construtor.
-- [ ] Wrappers.
+- [ ] POO.
+- Classes, Objetos, Visibilidade...✍️  
 
 ## Requisitos
  * IDE de sua escolha(VScode / Eclipse).
@@ -31,6 +23,7 @@ Neste projeto irá conter os exercícios na qual solucionei para práticar o que
 4. Configure a sua máquina de acordo com os requisitos solicitado acima.
    
 # Fontes
+* [Documentado o meu apredizado](https://www.notion.so/Masterizando-o-JAVA-39ecd0d854094dbe97e5f91ccddd484a?pvs=4)
 * [Roadmap de Java](https://roadmap.sh/java)
 * [Aulas da Loiane Groner sobre Lista Encadeada](https://www.youtube.com/@loianegroner)
 * [Curso Rockeseat Java](https://www.rocketseat.com.br/)
